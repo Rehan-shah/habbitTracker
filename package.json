@@ -1,18 +1,27 @@
 {
-	"name": "basicExpressReact",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon index.js"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"cors": "^2.8.5",
-		"express": "^4.17.1",
-		"nodemon": "^2.0.7"
-	}
+  "name": "basicexpressreact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikValdez/ExpressReactTut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NikValdez/ExpressReactTut/issues"
+  },
+  "homepage": "https://github.com/NikValdez/ExpressReactTut#readme",
+  "description": ""
 }

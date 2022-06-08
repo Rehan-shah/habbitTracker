@@ -13,14 +13,15 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(cors())
 
-app.get("/", cors(), async (req, res) => {
+app.get("/", (req, res) => {
 	res.send("This is working")
 })
-app.get("/home", cors(), async (req, res) => {
-	res.send("This is the data for the home page")
+
+app.get("/write",(req,res)=>{
+	res.send("data for home")
 })
 
-app.post("/post_name", async (req, res) => {
+app.post("/post_name", (req, res) => {
 	let { name } = req.body
 	console.log(name)
 })
